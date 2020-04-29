@@ -1,0 +1,3 @@
+[submodule "deep-RL-course"]
+	path = deep-RL-course
+	url = https://github.com/t-thanh/deep-RL-course
