@@ -1,7 +1,8 @@
 # Project 02: Continuous Control
 ## Learning Algorithm
 ### Agent
-This agent is based on the DDPG algorithm, which is adapted from the pedulum exersice.
+This agent is based on the `DDPG` algorithm (Deep Deterministic Policy Gradient), which is adapted from the pedulum exersice. `DDPG` is a policy gradient algorithm that uses a stochastic behavior policy for good exploration but estimates a deterministic target policy, which is much easier to learn. `DDPG` is also an actor-critic algorithm, it  uses two architectures, one for the actor and one for the critic. Each   have 2 neural networks: `local` and `target`. These networks compute action predictions for the current state and generate a temporal-difference (`TD`) error signal each time step. The input of the actor network is the current state, and the output is a single real value representing an action chosen from a continuous action space. `DDPG` also uses other techniques: `Replay Buffer` - to store the experiences of the agent during training, and then randomly sample experiences to use for learning and `Soft Updates` - to constrains the target values to change slowly.
+
 ### Model Architecture
 Both the **actor** and **critic** neural network of DDPG algorithm are build the same way for training multiple and single agent: with 3 fully-connected layers and 2 rectified nonlinear layers. 
 The number of neurons of the fully-connected layers are as follows:
