@@ -20,6 +20,7 @@ Learn how to apply reinforcement learning methods to applications that involve m
 # Projects of Deep Reinforcement Learning
 1.[Navigation](https://github.com/t-thanh/deep-reinforcement-learning/tree/master/P01_Navigation)
 [image0]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Agent"
+
 ![Agent][image1]
 
 Leverage neural networks to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue bananas.
@@ -27,6 +28,7 @@ Leverage neural networks to train an agent to navigate a virtual world and colle
 2.[Continuous Control](https://github.com/t-thanh/deep-reinforcement-learning/tree/master/P02_Continous_Control)
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/43851646-d899bf20-9b00-11e8-858c-29b5c2c94ccc.png "Crawler"
+
 ![Trained Agent][image1]
 ![Crawler][image2]
 
