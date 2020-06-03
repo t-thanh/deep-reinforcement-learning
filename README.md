@@ -22,7 +22,7 @@ Learn how to apply reinforcement learning methods to applications that involve m
 
 [image0]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Agent"
 
-![Agent][image1]
+![Agent][image0]
 
 Leverage neural networks to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue bananas.
 
